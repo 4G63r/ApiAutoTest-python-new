@@ -1,0 +1,15 @@
+[testcase]
+;本次需要执行的用例
+testcase_name = cases.xlsx
+testcase_sheet = upload_test
+
+[dingtalk]
+;switch_mode(钉钉推送开关，支持设定多个)-access_token(App讨论组-通知机器人测试群)
+switch_mode = on
+;access_token_main = 3e5bc874f2bf4ee259e6c10e34a963b50d19a2ce74fbc9adbe215895a8900e01
+access_token_sx = 6435a1469b07a26994d1e2bc6f5af207a055db889689c3cbb434864c7d3d6266
+;access_token_hxh = a4bdd076d19148d3043082e3f68d2216b868f718b4f48e020205b7d5473defaa
+
+[token]
+;跑用例前请换成个人的Authorization
+auth = 7b52d94a1eaG4AAziXZ3ZzP/XIBhbD9fmdn+ruHT+Tu0kmWwikU3T9mRoXBp8W0RnpIYb0iYP8aVOYySWk/vySYpHkZpH0FWUyJz62tONLIc9bsJAzOA
